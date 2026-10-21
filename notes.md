@@ -6,3 +6,7 @@
 -学了什么：变量，类型，input，类型转换，f-string
 -卡在哪：上传到GitHub时git commit没加-m 被Vim小弟阴了一手
 -明天要做的：休息，上课，练腿 awa
+## Day 03 · 2026-10-21
+- 学了什么：if/elif/else、for+range、while
+- 卡在哪:一切顺利
+- 下次（周六）要做的：列表与字典
