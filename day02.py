@@ -18,8 +18,8 @@ print(f" 增重目标     : {tdee + 400:.0f} kcal")
 print(f" 蛋白质       : {weight *1.8:.0f} g ")
 
 if bmi < 18.5:
-    print("结论：偏瘦，继续增重。")
+    print(f"结论：偏瘦，还差 {75 - weight:.1f} kg 到目标")
 elif bmi <24:
-    print("结论：正常范围。")
+    print(f"结论：正常范围，还差 {75 - weight:.1f} kg 到目标")
 else:
     print("结论：偏重，注意体脂。")
