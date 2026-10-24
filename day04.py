@@ -28,11 +28,11 @@ total = 0
 for r in records:
     total = total+r["weight"]
 
-avg = total / len((records))
+avg = total / len(records)
 print(f"平均体重{avg:.2f}kg")
 print(f"最新一条:{records[-1]['date']},{records[-1]['weight']}kg")
 
-records.append({"date":10-25, "weight":68.2, "kcal":2700})
+records.append({"date":"10-25", "weight":68.2, "kcal":2700})
 
 print(f"共{len(records)}条记录")
 print(f"累计增重{records[-1]['weight'] - records[0]['weight']:.1f} kg")
