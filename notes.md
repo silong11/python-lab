@@ -14,3 +14,7 @@
 -学了什么：列表与字典，.append
 -卡在哪：35行records.append({"date":10-25, "weight":68.2, "kcal":2700})中的10-25忘了加引号，Python会把它当作算式计算，且不会报错。
 -明天要做的：insert/remove/extend、切片、items()、嵌套取值
+## Day 05 2026-10-25
+-学了什么：insert/remove/pop/切片/items(),嵌套取值
+-卡在哪：字典里找出最大的一条
+-明天要做的：上课，练腿，休息
