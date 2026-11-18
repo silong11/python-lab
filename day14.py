@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("logs.csv", encoding="utf-8")
 
-df["gain"] = df["weight"] - df["weight"].iloc[0]
+df["gain"] = (df["weight"] - df["weight"].iloc[0]).round(1)
 df["share"] = (df["kcal"] / df["kcal"].sum() * 100).round(1)
 
 print(f"共 {len(df)} 条记录，{df.shape[1]} 列")
