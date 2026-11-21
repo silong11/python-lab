@@ -13,7 +13,7 @@ print(df[df.isna().any(axis=1)])
 df = df.fillna({"weight": df["weight"].mean(), "kcal": df["kcal"].mean()})
 print(f"填补后缺失：{df.isna().sum().sum()} 个")
 
-df["dt"] = pd.to_datetime(df["date"], format="%m-%d")
+df["dt"] = pd.to_datetime("2026-" + df["date"], format="%Y-%m-%d")
 df["week"] = df["dt"].dt.isocalendar().week
 
 weekly = df.groupby("week")[["weight", "kcal"]].mean().round(2)
