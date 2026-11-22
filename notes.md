@@ -58,3 +58,7 @@
 -学了什么：pandas 清洗（去重/去单位/补缺）与按周分组
 -卡在哪：pd.to_datetime(df["date"],format="%m-%d")没有年份，pandas 用了1900年当默认年份
 -明天要做的：练背，去实验室，写作业，看《人类简史》
+## Day 16 2026-11-22
+-学了什么：matplotlib 绘图，plot/bar/subplots、savefig、中文字体、axhline 参考线
+-卡在哪：中文标题显示成方块（要设 font.sans-serif）；savefig 必须在 show 之前，否则存空白
+-明天要做的：练腿
