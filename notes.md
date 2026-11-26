@@ -62,3 +62,7 @@
 -学了什么：matplotlib 绘图，plot/bar/subplots、savefig、中文字体、axhline 参考线
 -卡在哪：中文标题显示成方块（要设 font.sans-serif）；savefig 必须在 show 之前，否则存空白
 -明天要做的：练腿
+## Day 16 2026-11-26
+-学了什么：综合小项目，load/clean/analyze/plot 流水线
+-卡在哪：无
+-明天要做的：休息，去实验室
